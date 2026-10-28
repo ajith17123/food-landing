@@ -256,6 +256,8 @@ export default function Home() {
           }
         });
       }
+
+      ScrollTrigger.refresh();
     }, containerRef);
 
     return () => ctx.revert();
